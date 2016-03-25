@@ -1,4 +1,7 @@
 FROM debian:jessie
+MAINTAINER youske miyakoshi <youske@gmail.com>
+
+LABEL Role="cache"
 
 ARG SERVICE_PORT
 ARG ADMIN_NAME

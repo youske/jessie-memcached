@@ -1,7 +1,20 @@
+#
 .git
-vendor/
 node_modules/
+vendor/
 tests/
 
+#
+.gitignore
+.sync-config.cson
+.remote-sync.json
+Makefile*
+LICENSE*
+README*
 
 *.swp
+*.lock
+*.lck
+*.*~
+*~
+.tags
